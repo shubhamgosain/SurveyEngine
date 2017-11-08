@@ -2,7 +2,7 @@ Requirements
 
 1.You need to have installed Oracle on your System
 
-2.Import Surveykshan.dmp file in the project from database folder in your    oracle User account 
+2.Either create the table from the database table images provided or Import Surveykshan.dmp file in the project from database folder in your    oracle User account 
 	
 
 Set Username and password to the database in "DataSource" File in "DBConn" package
