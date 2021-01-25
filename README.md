@@ -1,21 +1,18 @@
 # SurveyEngine
-This project is t create a survey engine using Java where A user can conduct a survey where he/she can create a new survey and get it filled by other application users . 
-It is a full fleshed java application project  with 2 modules user and admin.
+A java project for conduting and filling surveys. A user can create and conduct a survey which can be filled by other application users.
 
 -------What Project Does--------- 
 
-It got 2 models user and admin
+Application actors - Users/Admin
 
-Only one admin is there. 
-while there can be multiple users
+Only one admin can be there while there can be multiple users.
 
-User and admin have to login first
+User and admin have to login first using there credentials. New user have to signup.
 
-New user will first signup 
-and then login to move inside application
-There a user can either fill an ongoing survey request or create its own new survey.
-We have impplemented a functionality of virtual currency.
-Virtual currency is used here to provide survey filling reward which can be then used to create a new survey
+After login, a user can either fill a live survey or create there own survey.
+
+For conducting surver, a coins system is used where a user will be charged in coins calculated from the length and properties of survey.
+Coins can only be earned via filling other live surveys.
 
 Filling a survey will reward you an amount.
 Conducting a survey will charge you amount.
@@ -25,16 +22,8 @@ The amount of reward and charge will depend on the number of questions and other
 In a new survey , four different type of questions can be created.
 
 1.MCQs
-
 2.Textboxes
-
 3.Checklist
-
 4.Answer type
 
-
-Also for a new survey its cost on the basis of its configurations will be charged . Configurations can be set while creation .
-Also after its creation , user can see that survey information like its status, asnwers, end date, amount, and survey results.
-
-
-
+After creation user can check the survey information like its status, answers, date, amount and survey results.
