@@ -1,5 +1,5 @@
 # SurveyEngine
-A java project for conduting and filling surveys. A user can create and conduct a survey which can be filled by other application users.
+A java project for conducting and filling surveys. A user can create and conduct a survey which can be filled by other application users.
 
 -------What Project Does--------- 
 
